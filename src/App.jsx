@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [lists, setLists] = useState([]);
 
-  const [text, setText] = React.useState("");
+  const [text, setText] = useState("");
 
   function handleChange(event) {
     setText(event.target.value);
