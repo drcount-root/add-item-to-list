@@ -79,3 +79,14 @@ button:hover {
   color: black;
   transition: 0.2s;
 }
+
+@media (min-width: 375px) {
+  .main-container {
+    /* margin-top: 16rem; */
+    padding: 5rem;
+  }
+
+  button {
+    padding: 0.4rem 5rem;
+  }
+}
